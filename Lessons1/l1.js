@@ -88,5 +88,15 @@ document.write(istrue);
 let isfolse=false;
 alert(isfolse);
 document.write(isfolse);
+let firstName = 'Mariana';
+console.log(firstName);
+let lastName = 'Zalyciailo';
+console.log(lastName);
+let middleName = 'Bohdanivna';
+console.log(middleName);
+let person = `${lastName} ${firstName} ${middleName}`;
+console.log(person);
+
+
 
 
