@@ -96,6 +96,18 @@ let middleName = 'Bohdanivna';
 console.log(middleName);
 let person = `${lastName} ${firstName} ${middleName}`;
 console.log(person);
+let a100 = 100;
+console.log(typeof a100);
+let b100 = '100';
+console.log(typeof b100);
+let ct = true;
+console.log(typeof ct);
+let firstName1= prompt('Як твоє прізвище?');
+let name1 = prompt ('Як тебе звати?');
+let middleName1 = prompt ('Як тебе по-батькові?');
+let fullname = `${name1} ${firstName1} ${middleName1}`;
+
+
 
 
 
