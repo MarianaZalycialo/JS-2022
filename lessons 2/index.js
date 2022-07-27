@@ -51,8 +51,8 @@ const book6 = {
 let user = [
     {name: 'Mariana',username:'Masia1',password:'masia35'},
     {name: 'Solomia',username:'Masia2',password:'masia353'},
-    {name: 'Alla',username:'Masia3',password:0972134115},
-    {name: 'Bodia',username:'Masia4',password:'1111'},
+    {name: 'Alla',username:'Masia3',password: 972134115},
+    {name: 'Bodia',username:'Masia4',password: 1111},
     {name: 'Luba',username:'Masia5',password:'dima88'},
     {name: 'Andrii',username:'Masia6',password:'books4'},
     {name: 'Masha',username:'Masia7',password:'1234'},
