@@ -7,13 +7,17 @@ for (let i = 0; i < 10; i++) {
     document.write(`<div>flowers ${i}<\div>`);
 }
 //За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
-var flowers=0;
-while(flowers< 20) {
-    console.log(`<h1>I love flowers<\h1>`);i++;
+let flowers=0;
+while(flowers < 20) {
+    document.write(`<h1>I love flowers<\h1>`);
+    flowers++;
 }
-co(`<div>flowers ${i}<\div>`);
 //За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
-
+let flowers1=0;
+while(flowers1 < 20) {
+    document.write(`<h1>I love flowers ${flowers1} <\h1>`);
+    flowers1++;
+}
 //Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону
 // Масив:
@@ -32,7 +36,11 @@ co(`<div>flowers ${i}<\div>`);
 //     </ul>
 //
 // замість 'ITEM OF ARRAY' підставити елемент з масиву щоб получився цілий список з даними з масиву
-
+let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+            for (let i= 0; i <  listOfItems.length; i++){
+               document.write(`
+                    <li>${listOfItems[i]} </li>`);
+            }
 
 
 //    Використовуючи данні з масиву, за допомоги document.write та циклу
