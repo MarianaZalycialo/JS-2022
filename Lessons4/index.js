@@ -70,9 +70,9 @@ let products = [
     },
 ];
 for (const product of products) {
-    document.write(`<div className="product-card">
-        <h3 className="product-title"> ${product.title} ${product.price}</h3>
-        <img src="${product.image}" alt="" className="product-image">
+    document.write(`<div class="product-card">
+        <h3 class="product-title"> ${product.title} ${product.price}</h3>
+        <img src="${product.image}" alt="" class="product-image">
     </div>
 `);
 }
