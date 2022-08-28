@@ -1,0 +1,71 @@
+.user {
+    width: 60%;
+    margin: 0 auto;
+    border: solid 1px grey;
+    background: aliceblue;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+a {
+    border: solid 1px gray;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: cornflowerblue;
+    color: white;
+    text-decoration: none;
+    width: 90%;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a:hover {
+    background: gold;
+    color: blue;
+}
+
+h2 {
+    text-align: center;
+}
+li {
+    margin-bottom: 5px;
+}
+
+#postsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.post {
+    width: 15%;
+    padding: 20px;
+    border: solid 1px gray;
+    background: lightblue;
+
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+    height: 50%;
+}
+
+a.details {
+    width: auto;
+}
+
+#map {
+    width: 50%;
+    height: 260px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
